@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis",
+      "type": "org.shop.miaosha.redis.RedisConfig",
+      "sourceType": "org.shop.miaosha.redis.RedisConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.shop.miaosha.redis.RedisConfig"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.shop.miaosha.redis.RedisConfig"
+    },
+    {
+      "name": "spring.redis.pool-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "org.shop.miaosha.redis.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.redis.pool-max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "org.shop.miaosha.redis.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.redis.pool-max-wait",
+      "type": "java.lang.Integer",
+      "sourceType": "org.shop.miaosha.redis.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.shop.miaosha.redis.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.shop.miaosha.redis.RedisConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

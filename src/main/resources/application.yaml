@@ -1,0 +1,26 @@
+server:
+  port: 8001
+
+spring:
+  datasource:
+    username: oizys
+    password: 123456
+    url: jdbc:mysql://localhost:3306/chapter5?useSSL=false&serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 127.0.0.1
+    port: 6380
+    timeout: 3000
+    password: 272829
+    jedis:
+      pool:
+#        最多有多少个空闲的jedis
+#        最多有多少个jedis实例
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+#        borrow一个实例的等待时间
+
+#   druid连接数据库的配置不同jdbc
+
+#redis 配置
